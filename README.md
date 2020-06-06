@@ -14,7 +14,7 @@ Tool: Android Studio
 ### Tasks
 
 1. Fork this github repository and clone it on Android Studio.
-2. The first task is to fetch and parse the JSON data from the above URL to your Android Application using the Retrofit Library. 
+2. Fetch and parse the JSON data from the above URL to your Android Application using the Retrofit Library. 
 3. After finishing the first task use Sugar ORM to store your data, which is intended to simplify the interaction with SQLite database in Android.
 4. Finally retrieve and display the data in an appealing user interface from the SQLite database using Sugar ORM. You can use any form of user interface methods.
 5. Push your code to your github account and send the link.

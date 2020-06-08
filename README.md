@@ -4,6 +4,8 @@ The exam is designed to test the skills of an entry-level Android developer. The
 
 ### Reference
 http://satyan.github.io/sugar/getting-started.html
+
+https://square.github.io/retrofit/
 ### Rest api: 
 http://dummy.restapiexample.com/api/v1/employees
 

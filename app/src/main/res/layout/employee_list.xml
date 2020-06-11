@@ -1,0 +1,70 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/user_icon1" />
+
+    <TextView
+        android:id="@+id/employee_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@+id/imageView2"
+        android:text="Employee Name"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/nunito_bold"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignStart="@+id/employee_name"
+        android:layout_marginBottom="12dp"
+        app:srcCompat="@drawable/age_icon" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView9"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/imageView9"
+        android:fontFamily="@font/nunito_extralight"
+        android:text="30"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/age"
+        android:layout_marginEnd="27dp"
+        android:layout_toStartOf="@+id/salary"
+        app:srcCompat="@drawable/salary_icon" />
+
+    <TextView
+        android:id="@+id/salary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView10"
+        android:layout_marginEnd="19dp"
+        android:fontFamily="@font/nunito_extralight"
+        android:text="32000"
+        android:textSize="12sp" />
+
+</RelativeLayout>
